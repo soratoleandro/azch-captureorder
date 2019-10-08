@@ -31,6 +31,9 @@ type Order struct {
 	Status            string  				`json:"status"`
 }
 
+//Test
+var testVariable = "dev"
+
 // Environment variables
 var mongoHost = os.Getenv("MONGOHOST")
 var mongoUsername = os.Getenv("MONGOUSER")
